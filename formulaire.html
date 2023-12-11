@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Billets</title>
+</head>
+<body>
+	<form>
+	<fieldset>
+	<legend align="left">Billets</legend>
+	 <table>
+	 <tr>
+	 	<td>Nom</td>
+	 	<td><input type="text" name="nom"></td>
+	 </tr>
+     <tr>
+        <td>Prenom</td>
+        <td><input type="text" name="prenom"></td>
+    </tr>
+	 <tr>
+	 	<td>Age</td>
+	 	<td><input type="number" name="age"></td>
+	 </tr>
+	 <tr>
+	 	<td>Carte de reduction</td>
+	 	<td>
+	 		<select name="reduction">
+	 			<option value="non">pas de carte</option>
+	 			<option value="etudiant">carte étudiant - 26 ans</option>
+	 			<option value="senior">carte senior 60+ ans</option>
+	 		</select>
+	 	</td>
+	 </tr>
+	 <tr>
+	 	<td>Type de billets</td>
+	 	<td>
+	 		<select name="type">
+	 			<option value="simple">billet première classe</option>
+	 			<option value="luxe">billet deuxième classe</option>
+	 		</select>
+	 	</td>
+	 </tr>
+	 <tr>
+	 	<td><button type="reset">Effacer</button>
+	 	<button type="submit">Envoyer</button></td>
+	 </tr>
+	</table>
+    </fieldset> 
+    </form>
+</body>
+</html>
